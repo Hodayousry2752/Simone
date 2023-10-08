@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+    *{
+        flex-wrap: wrap;
+    }
+    .profile-prg,.profile-list{
+        width: 90%;
+    }
+    .results{
+        width: 50%
+    }
+    .what-icon{
+        width: 90%;
+    }
+    .all-years,.bootstrap{
+        width: 90%;
+    }
+    .single-image{
+        width: 90%;
+    }
+    .clients-profile{
+        width: 93%;
+    }
+    .get-address{
+        width: 80%;
+    }
+    .get-input{
+        width: 93%;
+    }
+    .foot,.all-foot{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) and(max-width:992px) {
+    *{
+        flex-wrap: wrap;
+    }
+    .profile-prg,.profile-list{
+        width: 50%;
+    }
+    .results{
+        width: 50%
+    }
+    .what-icon{
+        width: 45%;
+    }
+    .all-years,.bootstrap{
+        width: 90%;
+    }
+    .single-image{
+        width: 45%;
+    }
+    .clients-profile{
+        width: 80%;
+    }
+    .get-address{
+        width: 80%;
+    }
+    .get-input{
+        width: 90%;
+    }
+    .foot,.all-foot{
+        flex-direction: column;
+    }
+
+}
